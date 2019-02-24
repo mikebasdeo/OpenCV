@@ -3,7 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-
 # IMREAD_GRAYSCALE = 0
 # IMREAD_COLOR = 1
 # IMREAD_UNCHANGED = -1
@@ -17,7 +16,7 @@ print('test')
 
 # open an image using matplotlib
 # plt.imshow(img, cmap='gray', interpolation='bicubic')
-# plt.plot([500,55], [55,500], 'c', linewidth=5)
+plt.plot([500,55], [55,500], 'c', linewidth=5)
 # plt.show()
 
 # open an image using OpenCV
